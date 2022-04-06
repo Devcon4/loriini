@@ -1,9 +1,5 @@
+import http from 'k6/http';
 
-export function app() {
-    var res: string = `4`;
-    console.log(res);
-
-    return res;
+export default function () {
+  http.get('https://localhost:4241/api/hero');
 }
-
-app();

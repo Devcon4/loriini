@@ -33,6 +33,7 @@
     "@rollup/plugin-node-resolve": "^9.0.0",
     "@rollup/plugin-run": "^2.1.0",
     "@types/jest": "^26.0.12",
+    "@types/k6": "^0.37.0",
     "core-js": "^3.8.2",
     "cross-env": "^7.0.3",
     "jest": "^26.4.2",
